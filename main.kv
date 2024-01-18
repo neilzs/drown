@@ -1,11 +1,13 @@
 # main.kv
 
-#:kivy 2.0.0
-
-# Mengatur tata letak dan penataan antarmuka pengguna
-BoxLayout:
+<CameraApp>:
     orientation: 'vertical'
+    
+    Button:
+        text: 'Start Camera'
+        on_press: app.start_camera(self)
 
-    # Menempatkan KivyCamera di dalam layout
     KivyCamera:
         id: my_camera
+
+<KivyCamera>:

@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements =  python3==3.7,opencv-python==4.5.5.64, kivy==2.0.0, pillow,numpy
+requirements =  python3==3.7.13,opencv-python==4.5.5.64,kivy,numpy
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
@@ -63,7 +63,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.7
+osx.python_version = 3.7.13
 
 # Kivy version to use
 osx.kivy_version = 1.9.1
@@ -100,7 +100,7 @@ android.permissions = CAMERA
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-android.api = 31
+android.api = 24
 
 # (int) Minimum API your APK / AAB will support.
 android.minapi = 21
